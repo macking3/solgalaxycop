@@ -22,9 +22,9 @@
 const { createClient } = require("@supabase/supabase-js");
 const fs = require("fs");
 
-const supabaseUrl = "";          // Add your Supabase URL
-const supabaseAnonKey = "";      // Add your Supabase anonymous key
-const winnersAmount = 5;         // Number of winners to export
+const supabaseUrl = "https://mweawcsgjjpesnagfbqp.supabase.co";          // Add your Supabase URL
+const supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im13ZWF3Y3NnampwZXNuYWdmYnFwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDg2MzI2MDUsImV4cCI6MjAyNDIwODYwNX0.QKNK27P9bQnODxGx4eDiwjf8kTGOjV30z2ECRaQNc4s";      // Add your Supabase anonymous key
+const winnersAmount = 100;         // Number of winners to export
 
 if (!supabaseUrl || !supabaseAnonKey) {
   console.error("Supabase URL or anonymous key is missing. Please provide valid values.");
