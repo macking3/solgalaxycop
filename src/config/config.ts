@@ -1,6 +1,6 @@
 // src/config/config.ts
 const whitelistData = {
-  projectName: "$COPS Airdrop",
+  projectName: "Solana Galaxy",
   description: "Regsiter for $COPS Airdrop & NFT",
   bannerUrl: "/solanaGradient.jpg",
   profilePictureUrl: "/bankk.png",
@@ -29,7 +29,7 @@ const whitelistData = {
   },
 
   requireTwitter: true,
-  requireDiscord: true,
+  requireDiscord: false,
 };
 
 export default whitelistData;
